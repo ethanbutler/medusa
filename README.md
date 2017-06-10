@@ -6,6 +6,12 @@
 npm install -g medusa
 ```
 
+or
+
+``
+yarn global medusa
+```
+
 to install.
 
 ## Use
