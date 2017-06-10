@@ -1,5 +1,5 @@
 {
-  "name": "medusa",
+  "name": "medusa-wp",
   "version": "1.0.0",
   "description": "Make a JSON dump of a WordPress site",
   "main": "medusa.js",
