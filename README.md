@@ -1,4 +1,4 @@
-# medusa
+# medusa :snake::state_of_liberty:
 
 ## Installation 
 
@@ -22,15 +22,15 @@ Options:
     -o, --output <output>  Output location (should be name of a json file)
 ```
 
-A sample call might look like:
+You must also specify a base URL to use. A sample call might look like:
 
 ```
-medusa -t posts -p order=asc -p orderby=title -o dump.json
+medusa http://sample.dev -t posts -p order=asc -p orderby=title -o dump.json
 ```
 
 This will output a JSON dump of the data named dump.json in your current working directory.
 
 ## On the radar/caveats
 
-* This is very much intended to be used with structure of the WordPress REST API, but can ~~probably~~ be repurposed for other needs
+* This is very much intended to be used with structure of the WordPress REST API, but can ~~probably~~ be repurposed for other APIs that use a `?page=` param for pagination. You'll likely need to update some things anyway.
 * Right now, types all have to be specified manually
