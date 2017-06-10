@@ -1,4 +1,4 @@
-# medusa :snake::state_of_liberty:
+# medusa :snake::statue_of_liberty:
 
 ## Installation 
 
