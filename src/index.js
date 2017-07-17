@@ -36,7 +36,7 @@ const getData = (types, urlOpts) => {
 const getDataByPage = (endpoint) => {
   return new Promise((resolve, reject) => {
     let data = []
-    const recurse = (endpoint, page = 0, prevData = []) => {
+    const recurse = (endpoint, page = 1, prevData = []) => {
       let url = endpoint + (page ? `&page=${page}` : '')
       console.log(`Scraping ${chalk.magenta(url)}`)
       axios.get(url)

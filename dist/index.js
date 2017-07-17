@@ -42,7 +42,7 @@ var getDataByPage = function getDataByPage(endpoint) {
   return new Promise(function (resolve, reject) {
     var data = [];
     var recurse = function recurse(endpoint) {
-      var page = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+      var page = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
       var prevData = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
       var url = endpoint + (page ? '&page=' + page : '');
