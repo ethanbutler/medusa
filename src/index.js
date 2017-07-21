@@ -5,7 +5,6 @@ const fs      = require('fs')
 const program = require('commander')
 const axios   = require('axios')
 
-const DEMARCATOR   = ','
 const DEFAULT_PATH = '/wp-json/wp/v2/'
 
 const multi = (val, memo) => {
